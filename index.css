@@ -1,0 +1,933 @@
+.filters{
+    position: absolute;
+width: 1351px;
+height: 52px;
+left: 80px;
+top: 278px;
+
+}
+.bestsellers{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 55px;
+gap: 10px;
+
+position: absolute;
+width: 222px;
+height: 52px;
+left: 0px;
+top: 0px;
+
+/* Accent color 1 */
+
+background: #D97642;
+/* Primary color */
+
+border: 2px dashed #FFFFFF;
+border-radius: 24px;
+}
+.ethnoschoice{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 41px;
+
+position: absolute;
+width: 222px;
+height: 52px;
+left: 250px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 2px dashed #1F1F1F;
+border-radius: 24px;
+}
+.highlyrated{
+    
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px 50px;
+
+position: absolute;
+width: 222px;
+height: 52px;
+left: 506px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 2px dashed #1F1F1F;
+border-radius: 24px;
+}
+.filter{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 222px;
+height: 52px;
+left: 1129px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 2px solid #1F1F1F;
+border-radius: 24px;
+}
+.filter p{
+    width: 60px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vector1{
+    position: absolute;
+left: 140.8px;
+right: 0px;
+top: 16.25px;
+
+width: 7px;
+height: 7px;
+/* Secondary color */
+background: url(images/V1.png);
+
+}
+.vector2{
+    position: absolute;
+left: 149.25px;
+right: 0px;
+top: 23.83px;
+
+width: 7px;
+height: 7px;
+/* Secondary color */
+background: url(images/V1.png);
+}
+.vector3{
+    position: absolute;
+left: 138.42px;
+right: 0px;
+top: 31.42px;
+
+width: 7px;
+height: 7px;
+/* Secondary color */
+background: url(images/V1.png);
+}
+.vector4{
+    position: absolute;
+left: 136.25px;
+right: 0px;
+top: 18.42px;
+bottom: 18.42px;
+width: 19.5px;
+height: 17px;
+
+/* Secondary color */
+background: url(images/V4.png);
+
+}
+.line{
+    position: absolute;
+width: 1334px;
+height: 0px;
+left: 82px;
+top: 370px;
+
+border: 1px solid #BEBEBE;
+}
+.products{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 50px;
+
+position: absolute;
+width: 1314px;
+height: 1990px;
+left: 79px;
+top: 428px;
+
+}
+.productsrow1{
+    width: 1314px;
+height: 460px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.produtsrow2{
+    /* Products row 2 */
+
+
+width: 1314px;
+height: 460px;
+top: 510px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.produtsrow3{
+    width: 1314px;
+height: 460px;
+top: 1020px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.productsrow4{
+    width: 1314px;
+height: 460px;
+top: 1530px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+.product4{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 1017px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+
+.product3{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 678px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 339px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product1{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product8{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 1017px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product7{
+    
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 678px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product6{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 339px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product5{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 0px;
+top: 510px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product12{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 1017px;
+top: 1020px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product11{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 678px;
+top: 1020px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product10{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 339px;
+top: 1020px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product9{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 0px;
+top: 1020px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product16{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 1017px;
+top: 1530px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product15{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 678px;
+top: 1530px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product14{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 339px;
+top: 1530px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.product13{
+    box-sizing: border-box;
+
+position: absolute;
+width: 297px;
+height: 460px;
+left: 0px;
+top: 1530px;
+
+background: #FFFFFF;
+border: 1px solid #DADADA;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+.frame{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 247px;
+top: 17px;
+
+}
+.like{
+    position: absolute;
+left: 6.25%;
+right: 6.25%;
+top: 12.5%;
+bottom: 12.52%;
+
+background: url(images/Vector.png);
+}
+.review{
+    position: absolute;
+width: 206px;
+height: 16px;
+left: 18px;
+top: 425px;
+
+}
+.reviewstars{
+    position: absolute;
+width: 76px;
+height: 12px;
+left: 0px;
+top: 0px;
+
+}
+.rating{
+    position: absolute;
+width: 100px;
+height: 12px;
+left: 0px;
+top: 0px;
+}
+.bx bxs-star{
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+background: #D97642;}
+.review p{
+    position: absolute;
+width: 85px;
+
+left: 111px;
+top: 0px;
+bottom: 20px;
+margin-top:0;
+margin-bottom: 40px;
+/* Paragraph 03 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+color: #5F5F5F;}
+.img-cover{
+    position: absolute;
+width: 297px;
+height: 349px;
+left: calc(50% - 297px/2);
+top: 0px;
+
+background: url(ethnic-hand-crafted-cane-stool-in-multi-colour-by-cdi-ethnic-hand-crafted-cane-stool-in-multi-colour-zkzkh5.jpg);
+border-radius: 6px;
+}
+.price{
+    position: absolute;
+width: 108px;
+height: 11px;
+left: 18px;
+top: 398px;
+}
+.p1{
+    position: absolute;
+width: 49px;
+height: 11px;
+left: 0px;
+top: 0px;
+
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.p2{
+    position: absolute;
+width: 42px;
+height: 10px;
+left: 63px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+text-decoration-line: line-through;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.t1{
+    position: absolute;
+width: 273px;
+height: 11px;
+left: 18px;
+top: 345px;
+
+/* Paragraph 02 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+color: #5F5F5F;
+}
+.product1:hover,.product2:hover,.product3:hover,.product4:hover,.product5:hover,.product6:hover,.product7:hover,.product8:hover,.product9:hover,.product10:hover,.product11:hover,.product12:hover,.product13:hover,.product14:hover,.product15:hover,.product16:hover{
+    scale:1.05;
+}
+.backtotop{
+    position: absolute;
+width: 177px;
+height: 30px;
+left: 1209px;
+top: 2486px;
+}
+.backtotop p{
+    position: absolute;
+width: 177px;
+height: 30px;
+left: 0px;
+top: 7px;
+
+/* Paragraph 00 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.04em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.arrow{
+    position: absolute;
+width: 30px;
+height: 15px;
+left: 125px;
+top: 30px;
+
+
+}
+.Numbers{
+    position: absolute;
+width: 379px;
+height: 49.02px;
+left: 79px;
+top: 2476px;
+}
+.arrow2{
+    position: absolute;
+width: 40px;
+height: 15.24px;
+left: 339px;
+top: 17px;
+
+
+/* Secondary color */
+
+
+}
+.one{
+    position: absolute;
+width: 50px;
+height: 49.02px;
+left: 0px;
+top: 0px;
+
+/* Accent color 1 */
+
+background: #D97642;
+border-radius: 12px;
+}
+.one1{
+    position: absolute;
+width: 10px;
+height: 17px;
+left: 20px;
+top: -13px;
+
+/* Header 02 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Primary color */
+
+color: #FFFFFF;
+}
+.two{
+    box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 49.02px;
+left: 66px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 12px;
+}
+.two p{
+    position: absolute;
+width: 14px;
+height: 17px;
+left: 18px;
+top: -13px;
+
+/* Header 02 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+}
+.three{
+    box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 49.02px;
+left: 132px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 12px;
+}
+.three p{
+    position: absolute;
+width: 14px;
+height: 17px;
+left: 18px;
+top: -13px;
+
+/* Header 02 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+
+}
+.four{
+    box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 49.02px;
+left: 198px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 12px;
+}
+.five{
+    box-sizing: border-box;
+
+position: absolute;
+width: 50px;
+height: 49.02px;
+left: 264px;
+top: 0px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 12px;
+}
+.four p{
+    position: absolute;
+width: 14px;
+height: 17px;
+left: 18px;
+top: -13px;
+
+/* Header 02 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+}
+.five p{
+    position: absolute;
+width: 14px;
+height: 17px;
+left: 18px;
+top: -13px;
+
+/* Header 02 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+letter-spacing: 0.02em;
+
+/* Secondary text color */
+
+color: #5F5F5F;
+}
+
+
