@@ -661,10 +661,10 @@ top: 2486px;
 }
 .backtotop p{
     position: absolute;
-width: 177px;
-height: 30px;
-left: 0px;
-top: 7px;
+    width: 141px;
+    height: 30px;
+    left: 0px;
+    top: -20px;
 
 /* Paragraph 00 */
 
@@ -693,7 +693,7 @@ color: #1F1F1F;
 width: 30px;
 height: 15px;
 left: 125px;
-top: 30px;
+top: 6px;
 
 
 }
